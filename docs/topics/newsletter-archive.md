@@ -18,7 +18,7 @@ Accounting newsletters sent between 2019 and 2020 and listed on the old wiki. Th
 | 21-10-2020 | Threshold for booking invoices without purchase request | [Approvals](approvals-segregation.md) (threshold to be confirmed) |
 | 05-10-2020 | JV-Reversal auto-matching | [Accruals](accruals.md) |
 | 02-07-2020 | Q2 2020 forecasting guidelines | not a standing policy |
-| 23-06-2020 | Closing control file access for end users | [Control file](control-file.md) |
+| 23-06-2020 | Closing control file access for end users | [Accounting Control File](control-file.md) |
 | 09-04-2020 | New available budget calculation on purchase requests | [Available budget](reports-available-budget.md) |
 | 30-03-2020 | New discount element 5 for Covid-19 | historical, dropped |
 | 05-03-2020 | Turnover rent accounting and reporting | [Turnover rent](turnover-rent.md) |

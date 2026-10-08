@@ -24,7 +24,7 @@ Multi closes the books **every month**. Group Finance sends the closing instruct
 | 8 | Investment property valuation | WD +7 | `JV-VALUATION` | [Investment property](investment-property.md) |
 | 9 | All accruals | WD +8 | `JV-REVERSAL` | [Accruals](accruals.md) |
 | 10 | FX valuation | WD +11 | | [Currency revaluation](currency-revaluation.md) |
-| 11 | Closing: control file and trial balance review, result transfer | WD +12 | `JV-RESULT` | [Closing checklist](closing-checklist.md), [Control file](control-file.md) |
+| 11 | Closing: control file and trial balance review, result transfer | WD +12 | `JV-RESULT` | [Closing checklist](closing-checklist.md), [Accounting Control File](control-file.md) |
 
 Deviations: when a deadline cannot be met, tell the cash manager (bank) or HQ accounting (all other items) **before** the deadline and list the bookings that will come after it. Controls C25 and C26 report every booking made after the bank or closing deadline.
 

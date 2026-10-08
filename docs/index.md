@@ -9,7 +9,7 @@ This is the single place for Multi's accounting policies, month-end closing rule
 ## How to use this site
 
 - **Looking for a rule?** Use the search box or browse the [Guideline overview](topics/index.md).
-- **Closing a month?** Start with the [closing calendar](topics/closing-calendar.md), then the [closing checklist](topics/closing-checklist.md) and the [control file](topics/control-file.md).
+- **Closing a month?** Start with the [closing calendar](topics/closing-calendar.md), then the [closing checklist](topics/closing-checklist.md) and the [Accounting Control File](topics/control-file.md).
 - **Something changed?** Every page ends with a change log naming its source. The [global change log](changelog.md) lists all changes in date order.
 - **Found something outdated or missing?** Tell Group Finance, or follow [How to update this site](how-to-update.md).
 
@@ -28,7 +28,7 @@ Items where the migrated material is unclear, dated, or conflicts. Group Finance
 | 1 | [Closing calendar](topics/closing-calendar.md) | Old wiki: quarterly close, 5th working day. Current: monthly close with milestones. Confirm the default working-day offsets per milestone. | Open |
 | 2 | [Intercompany](topics/intercompany.md) | Intercompany interest rate (4,60% in 2019 and 2020). Current rate? | Open |
 | 3 | [Approvals](topics/approvals-segregation.md) | Manual journal approval limits named individuals; confirm limits and the current threshold for invoices without PR (newsletter 21 October 2020). | Open |
-| 4 | [Control file](topics/control-file.md) | Current version (old wiki: v4.2, 2021 Q1) and any controls added since. | Open |
+| 4 | [Accounting Control File](topics/control-file.md) | Live list of Reporting Hub controls (number, category, description) to replace the Excel-era catalogue; SQL query is on the page. | Open |
 | 5 | [Bad debt](topics/bad-debt.md) | Relationship between the 60-day MAN policy and the IFRS 9 ECL matrix in FSM. | Open |
 | 6 | [Contacts](topics/contacts.md) | Key user and HQ contact list predates 2021. | Open |
 | 7 | [US tax reporting](topics/us-tax-reporting.md) | Source page was marked draft. | Open |

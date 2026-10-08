@@ -17,7 +17,7 @@ One page per topic, in the order of the month-end closing flow. Every page state
 |---|---|
 | [Closing calendar and deadlines](closing-calendar.md) | Key closing milestones |
 | [Closing checklist](closing-checklist.md) | 37 sign-off points |
-| [Control file](control-file.md) | Controls C01 to C31 |
+| [Accounting Control File](control-file.md) | Online control file in the Reporting Hub: findings, submit, approval, deadline; control catalogue |
 
 ## Balance sheet
 

@@ -60,7 +60,7 @@ nav:
       - Month-end closing:
           - Closing calendar and deadlines: topics/closing-calendar.md
           - Closing checklist: topics/closing-checklist.md
-          - Control file: topics/control-file.md
+          - Accounting Control File: topics/control-file.md
       - Balance sheet:
           - Bank and cash: topics/bank-cash.md
           - Matching principles: topics/matching.md
