@@ -96,6 +96,8 @@ class MarkdownConverter(HTMLParser):
         elif tag == "tr" and self.in_table == 1:
             self.row = []
         elif tag in ("td", "th") and self.in_table == 1:
+            if self.row is None:  # malformed HTML: cell without a row
+                self.row = []
             self.cell = []
         elif tag == "blockquote":
             self._emit("\n\n> ")
@@ -128,6 +130,8 @@ class MarkdownConverter(HTMLParser):
         elif tag in ("td", "th") and self.cell is not None:
             text = " ".join("".join(self.cell).split())
             text = re.sub(r"\*\*\s*\*\*", "", text)
+            if self.row is None:
+                self.row = []
             self.row.append(text.replace("|", "\\|"))
             self.cell = None
         elif tag == "tr" and self.row is not None:
@@ -140,6 +144,10 @@ class MarkdownConverter(HTMLParser):
         elif tag == "table":
             self.in_table = max(self.in_table - 1, 0)
             if self.in_table == 0:
+                if self.row:  # flush an unterminated row
+                    self.out.append("| " + " | ".join(self.row) + " |\n")
+                self.row = None
+                self.cell = None
                 self.out.append("\n")
         elif tag in ("p", "div", "section"):
             if self.cell is None:
@@ -205,6 +213,8 @@ def main() -> int:
             md, links, images = html_to_md(body)
             folder = os.path.dirname(rel).replace(os.sep, "/")
             slug = (slugify(folder) + "--" if folder and folder != "." else "") + slugify(fn.strip("​"))
+            if os.path.exists(os.path.join(out_dir, slug + ".md")):
+                slug += "-2"  # duplicate page names (e.g. zero-width-space variants)
             words = len(md.split())
             front = (
                 "---\n"
