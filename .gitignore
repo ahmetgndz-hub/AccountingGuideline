@@ -3,3 +3,7 @@ site/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Never commit auth tokens (SharePoint helper writes outside the repo anyway)
+*.token.json
+token.json
