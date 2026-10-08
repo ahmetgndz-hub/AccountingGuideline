@@ -26,6 +26,8 @@ title: Salary bookkeeping and employee costs
 | BB2 | 13567 Prepayment staff | E5338 | 15 Cr |
 | BF3 | 27515 Salary suspense | E5338 | 195 Cr |
 
+**Severance payments**: in the payroll run of the month of payment, book the gross severance **Dr 27527 Accrual redundancy** with the employee element (el6), never to staff costs; the net pay and taxes follow the normal payroll lines. Group Finance releases the remaining provision at the next quarter end. See [Redundancy provision](redundancy-provision.md).
+
 **Month-end controls**: 27515 is zero and matched against the bank payments; 27523 equals the tax to be paid; 13567 is zero per employee; EL2 is consistent per employee.
 
 ## Recharges of salary cost
@@ -46,4 +48,5 @@ If the asset company keeps the cost as landlord cost instead of recharging it to
 
 | Date | Change | Source |
 |------|--------|--------|
+| 2026-10-08 | Severance payment treatment added per the Redundancy Provision policy v1.2 (§5.3). | `sources/emails/2026-10_redundancy-provision-policy-v1-2.md` |
 | 2026-10-08 | Page created from "Salary Bookkeeping and recharges" (31 October 2019), C30 and C14. | `sources/wiki/pages/salary-bookkeeping-and-rechagres.md` |

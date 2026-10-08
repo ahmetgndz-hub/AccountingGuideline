@@ -29,8 +29,8 @@ Accrue when goods or services were received or delivered before the reporting da
 | Nature | P&L line | Booking | MAN | FSM | UST |
 |---|---|---|---|---|---|
 | Employee bonus | PQ2 | Cr 27526 / Dr 44124 | No | No | No |
-| Redundancy | PQ5 | Cr 27527 / Dr 44125 | No | No | No |
-| Seniority / leaving indemnity | PQ | Cr 27527 / Dr 44123 | No | No | No |
+| Redundancy provision | PQ8 | Cr 27527 / Dr 44125, booked centrally by Group Finance per employee at quarter end; see [Redundancy provision](redundancy-provision.md) | Yes (MAN) | per layer map | No |
+| Seniority / leaving indemnity | PQ | Covered by the redundancy provision policy where it is a statutory severance; otherwise Cr 27527 / Dr 44123 | see policy | | |
 | Unused vacation days | PR9 | Cr 27515 / Dr 44190 | No | No | No |
 | Marketing invoices not yet issued | PE1, PE2 | Dr 13553 / Cr 46810, 46820 | Yes | Yes | Yes |
 | Service charge reconciliation: additional invoices | PE1, PE2 | Dr 13553 / Cr 46810, 46820 | Yes | Yes | Yes |
@@ -61,4 +61,5 @@ The available-budget calculation counts `JV-REVERSAL` (and the old `GE-JV-RV`) d
 
 | Date | Change | Source |
 |------|--------|--------|
+| 2026-10-08 | Redundancy and seniority rows updated per the Redundancy Provision policy v1.2 (provision now booked in MAN by Group Finance). | `sources/emails/2026-10_redundancy-provision-policy-v1-2.md` |
 | 2026-10-08 | Page created from "Accruals" (instructions 17 September 2019, 6 November 2019, 5 October 2020). | `sources/wiki/pages/accruals.md` |

@@ -49,6 +49,7 @@ One page per topic, in the order of the month-end closing flow. Every page state
 | [Service and marketing charges](service-marketing-charges.md) | PE / PF, caps, reconciliation |
 | [Accruals](accruals.md) | Do's and don'ts, standard accruals |
 | [Salary bookkeeping and employee costs](salary-bookkeeping.md) | JV-SALARY, employee codes, recharges |
+| [Redundancy provision](redundancy-provision.md) | Group policy v1.2: multipliers, layers, JV-REDUND |
 | [Fee income (service companies)](fee-income-recharges.md) | PP accounts, fee analysis |
 | [Non-recurring expenses](non-recurring-expenses.md) | PQ5 and PR12 accounts |
 | [Below NRI and cash flow mapping](below-nri-cashflow.md) | QAR cash flow from Coda |

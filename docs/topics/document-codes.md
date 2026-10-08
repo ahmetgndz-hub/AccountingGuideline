@@ -25,6 +25,7 @@ Since 2020 Coda has one document code per purpose. Use the code that matches the
 | `JV-BADDEBT` | Bad debt provision bookings | Exempt | 13113, 42593. Must be a reversal document |
 | `JV-TAXES` | VAT return, WHT return, deferred tax, tax accruals and reclasses | Exempt, write-off allowed up to €5 | 11575, 27521, 27523, 11650, 25511, 27570, 53100, 53300 |
 | `JV-DEPR` | Depreciation of tangible and intangible assets | Manual journal workflow | 11313, 11323, 11423, 42910, 42911, 42912, 44910, 53910 |
+| `JV-REDUND` | Quarter-end redundancy provision booking by Group Finance, one document per legal entity and entity code, MAN + LOC + FSM lines together, delivered via Fluxygen to the intray | Posted by Group Finance | 27527, 44125, 43011; see [Redundancy provision](redundancy-provision.md) |
 | `JV-SALARY` | Payroll bookings | | see [Salary bookkeeping](salary-bookkeeping.md) |
 | `JV-REVERSAL` | Accruals with automatic reversal (auto-matched) | | see [Accruals](accruals.md) |
 | `NF-GUARANTEE` | Tenant or supplier guarantees, off balance sheet (formerly `GE-JV-MAN-GU`) | Manual journal workflow | 99100 |
@@ -36,4 +37,5 @@ Other document families: incoming invoices (`*PI*`), outgoing / asset invoices (
 
 | Date | Change | Source |
 |------|--------|--------|
+| 2026-10-08 | JV-REDUND added per the Redundancy Provision policy v1.2. | `sources/emails/2026-10_redundancy-provision-policy-v1-2.md` |
 | 2026-10-08 | Page created from "Journal Vouchers", "Document codes in use", "C28". JV-SALARY and JV-REVERSAL added from the salary and accrual pages. | `sources/wiki/pages/journal-vouchers.md` |

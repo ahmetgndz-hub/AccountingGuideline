@@ -33,4 +33,5 @@ Items where the migrated material is unclear, dated, or conflicts. Group Finance
 | 6 | [Contacts](topics/contacts.md) | Key user and HQ contact list predates 2021. | Open |
 | 7 | [US tax reporting](topics/us-tax-reporting.md) | Source page was marked draft. | Open |
 | 8 | [Instruction archive](topics/newsletter-archive.md) | Newsletter 5 February 2020 "New BO category PR13 cost price" is not in the P&L mapping. | Open |
-| 9 | Guideline e-mails | E-mails sent after 2020 are not yet in `sources/emails/`; pages will be updated when they are added. | Open |
+| 9 | Guideline e-mails | Guidelines are being loaded one by one into `sources/emails/` (first: Redundancy Provision policy v1.2). Pages are updated as each one arrives. | In progress |
+| 10 | [P&L accounts](topics/pl-accounts-bo-codes.md) | The redundancy policy reports 44125 under PQ8 and 43011 under PU; the 2019 mapping shows PQ5 and has no 43011. Confirm the current BO hierarchy and refresh the mapping page. | Open |
