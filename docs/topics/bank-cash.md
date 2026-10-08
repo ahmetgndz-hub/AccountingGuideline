@@ -1,0 +1,30 @@
+---
+title: Bank and cash
+---
+
+# Bank and cash
+
+<div class="page-meta" markdown>
+**Applies to:** all entities · **Owner:** Group Finance / cash management · **Last reviewed:** 2026-10-08
+</div>
+
+## Rule
+
+1. **Book every bank statement on the next working day** after the statement date (Monday's statement on Tuesday; Friday's on Monday). Control C17 measures this.
+2. **Book all bank mutations through Crescendo.** Direct bookings on cash accounts are only accepted for accounts that cannot be loaded into Crescendo (control C21). Suspense accounts 13332 (Crescendo) and 13313 (banks / cash) must be cleared daily.
+3. **Bank booking deadline** at month end: 3 working days after period end, communicated by the cash manager. Bookings after that date appear in control C25; agree them with the cash manager beforehand.
+4. **Match after every bank run** (A/R and A/P daily, before the debtor meeting and before the payment proposal). See [Matching](matching.md).
+5. **Classify bank accounts by content** (checklist point 31). Tenant deposit accounts that loan agreements require to be kept separately stay separate; move utilised deposits to the current account by an actual transfer.
+6. **Cash flow corrections** (rebooking a cash movement to the right cash flow line) use document code `JV-CFCORR`, never `JV-MANUAL`, so the QAR cash flow picks them up. See [Below NRI and cash flow mapping](below-nri-cashflow.md).
+
+Cash SCoAs recognised by the cash flow: 13311, 13312, 13313, 13317, 13332, 13340, 13345 (BO group BB5).
+
+## Deadlines
+
+Bank and cash deadline: see [Closing calendar](closing-calendar.md), milestone 3.
+
+## Change log
+
+| Date | Change | Source |
+|------|--------|--------|
+| 2026-10-08 | Page created from C17, C21, C25, "Liquidation of cash guarantees" and "Below NRI items". | `sources/wiki/pages/` |

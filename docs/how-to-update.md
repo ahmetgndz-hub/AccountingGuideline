@@ -18,7 +18,7 @@ on every push to `main`.
 
 ## Adding a new topic
 
-1. Copy `docs/topics/_template.md` to `docs/topics/<slug>.md`.
+1. Copy `docs/topics/_template.md` to `docs/topics/<slug>.md` (the template is not part of the site navigation).
 2. Fill in every section; delete a section only if it genuinely does not apply.
 3. Add the page to `nav` in `mkdocs.yml` and to the table in `docs/topics/index.md`.
 

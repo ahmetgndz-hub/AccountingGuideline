@@ -51,6 +51,53 @@ plugins:
 nav:
   - Home: index.md
   - Guideline:
-      - topics/index.md
+      - Overview: topics/index.md
+      - System and structure:
+          - Books and booking structure: topics/booking-structure.md
+          - Coda element structure: topics/coda-elements.md
+          - Document codes: topics/document-codes.md
+          - Approvals and segregation of duties: topics/approvals-segregation.md
+      - Month-end closing:
+          - Closing calendar and deadlines: topics/closing-calendar.md
+          - Closing checklist: topics/closing-checklist.md
+          - Control file: topics/control-file.md
+      - Balance sheet:
+          - Bank and cash: topics/bank-cash.md
+          - Matching principles: topics/matching.md
+          - Suspense and dummy accounts: topics/suspense-dummy-accounts.md
+          - Bad debt provision: topics/bad-debt.md
+          - Writing off receivables: topics/writing-off-receivables.md
+          - Tenant guarantees: topics/tenant-guarantees.md
+          - Investment property valuation: topics/investment-property.md
+          - Capex and capex id: topics/capex.md
+          - Development budget codes (B codes): topics/development-b-codes.md
+          - Loans and interest: topics/loans-interest.md
+          - Intercompany transactions and charges: topics/intercompany.md
+          - Currency revaluation: topics/currency-revaluation.md
+          - Result transfer and dividends: topics/equity-result-dividends.md
+          - Taxes: topics/taxes.md
+      - Profit and loss:
+          - Rental income structure: topics/revenue-structure.md
+          - ERV and vacancy: topics/erv-vacancy.md
+          - Discounts and lease incentives: topics/discounts-incentives.md
+          - Turnover rent: topics/turnover-rent.md
+          - Service and marketing charges: topics/service-marketing-charges.md
+          - Accruals: topics/accruals.md
+          - Salary bookkeeping and employee costs: topics/salary-bookkeeping.md
+          - Fee income (service companies): topics/fee-income-recharges.md
+          - Non-recurring expenses: topics/non-recurring-expenses.md
+          - Below NRI and cash flow mapping: topics/below-nri-cashflow.md
+      - Reference:
+          - P&L accounts and BO codes: topics/pl-accounts-bo-codes.md
+          - Business glossary and KPIs: topics/business-glossary.md
+          - IFRS policy memos: topics/ifrs-memos.md
+          - US tax reporting: topics/us-tax-reporting.md
+          - "BO reports: available budget": topics/reports-available-budget.md
+          - Key users and contacts: topics/contacts.md
+          - Instruction archive: topics/newsletter-archive.md
+          - What was dropped from the old wiki: topics/removed-from-wiki.md
   - Change log: changelog.md
   - How to update this site: how-to-update.md
+
+not_in_nav: |
+  topics/_template.md
