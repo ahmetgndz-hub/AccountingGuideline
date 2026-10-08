@@ -1,0 +1,56 @@
+site_name: Multi Accounting Guideline
+site_description: Knowledge center and accounting guideline for Multi Group Finance
+site_url: https://ahmetgndz-hub.github.io/AccountingGuideline/
+repo_url: https://github.com/ahmetgndz-hub/AccountingGuideline
+repo_name: AccountingGuideline
+edit_uri: edit/main/docs/
+copyright: Multi Corporation · Group Finance
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Roboto
+    code: Roboto Mono
+  palette:
+    scheme: default
+    primary: custom
+    accent: custom
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+    - toc.follow
+
+extra_css:
+  - stylesheets/multi.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Guideline:
+      - topics/index.md
+  - Change log: changelog.md
+  - How to update this site: how-to-update.md

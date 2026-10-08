@@ -1,0 +1,119 @@
+/* Multi house style — palette sampled from Multi_Charts_Showcase (Group Finance) */
+:root {
+  --multi-navy: #0A1E5A;
+  --multi-blue: #0098C3;
+  --multi-magenta: #B8005C;
+  --multi-lime: #C9DD03;
+  --multi-band: #F2F2F2;
+
+  --md-primary-fg-color: var(--multi-navy);
+  --md-primary-fg-color--light: #2A3F7A;
+  --md-primary-fg-color--dark: #061240;
+  --md-accent-fg-color: var(--multi-blue);
+  --md-accent-fg-color--transparent: rgba(0, 152, 195, 0.1);
+  --md-typeset-a-color: var(--multi-blue);
+  --md-default-fg-color: var(--multi-navy);
+  --md-default-fg-color--light: #3A4A7A;
+}
+
+/* Roboto Thin for titles, Light for body (no italic in Multi's system) */
+.md-typeset {
+  font-weight: 300;
+}
+.md-typeset h1 {
+  font-weight: 100;
+  color: var(--multi-navy);
+}
+.md-typeset h2 {
+  font-weight: 300;
+  color: var(--multi-navy);
+  border-bottom: 1px solid var(--multi-band);
+  padding-bottom: 0.2em;
+}
+.md-typeset h3,
+.md-typeset h4 {
+  font-weight: 400;
+  color: var(--multi-navy);
+}
+.md-typeset em {
+  font-style: normal;
+  font-weight: 500;
+}
+.md-typeset strong {
+  font-weight: 500;
+}
+
+/* Tables: navy header, white bold text, banded rows, no gridlines */
+.md-typeset table:not([class]) {
+  border: none;
+  font-size: 0.75rem;
+}
+.md-typeset table:not([class]) th {
+  background-color: var(--multi-navy);
+  color: #ffffff;
+  font-weight: 700;
+  border: none;
+}
+.md-typeset table:not([class]) td {
+  border: none;
+  border-top: none;
+}
+.md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background-color: var(--multi-band);
+}
+.md-typeset table:not([class]) tbody tr:hover {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+/* Metadata line under each page title */
+.md-typeset .page-meta {
+  font-size: 0.7rem;
+  color: #3A4A7A;
+  border-left: 3px solid var(--multi-blue);
+  padding: 0.3em 0.8em;
+  margin-bottom: 1.5em;
+  background: var(--multi-band);
+}
+
+/* Admonitions in Multi colours */
+.md-typeset .admonition.note,
+.md-typeset details.note {
+  border-color: var(--multi-blue);
+}
+.md-typeset .note > .admonition-title,
+.md-typeset .note > summary {
+  background-color: rgba(0, 152, 195, 0.1);
+}
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border-color: var(--multi-magenta);
+}
+.md-typeset .warning > .admonition-title,
+.md-typeset .warning > summary {
+  background-color: rgba(184, 0, 92, 0.08);
+}
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: var(--multi-lime);
+}
+.md-typeset .tip > .admonition-title,
+.md-typeset .tip > summary {
+  background-color: rgba(201, 221, 3, 0.15);
+}
+
+/* Status badges */
+.badge {
+  display: inline-block;
+  padding: 0.1em 0.6em;
+  border-radius: 1em;
+  font-size: 0.65rem;
+  font-weight: 500;
+  color: #fff;
+  background: var(--multi-blue);
+}
+.badge.superseded {
+  background: var(--multi-magenta);
+}
+.badge.draft {
+  background: #3A4A7A;
+}
