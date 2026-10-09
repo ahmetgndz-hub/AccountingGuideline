@@ -20,7 +20,7 @@ Management fee income is split in four categories and booked on separate account
 | PP4 | 45880 | 45881 | (Re)development fee |
 | PP5 | 44129, 44611 | | Recharged salary and employee cost (see [Salary bookkeeping](salary-bookkeeping.md)) |
 
-The agreements behind each fee (PLSA, PMSA, IGSA, CAA, ACAA) and the counter-bookings at the asset company are on the [Intercompany](intercompany.md) page. Management fees are booked on the 35% / 65% logic (asset management and statutory vs property management) with proper EL2 (checklist point 32).
+The agreements behind each fee (PLSA, PMSA, IGSA, CAA, ACAA) and the counter-bookings at the asset company are on the [Intercompany](intercompany.md) page. Management fees are booked on the 35% / 65% logic (asset management and statutory vs property management) with proper EL2 (checklist point 32). Fee income is booked at the management company by [milestone 7](closing-calendar.md) (ME + 6, map code PP*). At year end all fee income of the year must be charged to the clients or, where it cannot be invoiced yet, accrued (year-end instruction December 2025).
 
 ## Fee analysis (RMA)
 

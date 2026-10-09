@@ -5,7 +5,7 @@ title: Accounting Control File
 # Accounting Control File
 
 <div class="page-meta" markdown>
-**Applies to:** every control group (country) · **Owner:** Group Financial Controlling · **Where:** [Multi Reporting Hub](https://multireportinghub.multi.eu) · **Last reviewed:** 2026-10-08
+**Applies to:** every control group (country) · **Owner:** Group Financial Controlling · **Where:** [Multi Reporting Hub](https://multireportinghub.multi.eu) · **Last reviewed:** 2026-10-09
 </div>
 
 ## Rule
@@ -19,6 +19,8 @@ The Accounting Control File is the **online, monthly sign-off of the bookkeeping
 5. **Respect the deadline.** The closing deadline is the "99 Closing" milestone of the [closing calendar](closing-calendar.md) (month end + standing offset + any extension for the period, country-specific extension first). At **23:59 Amsterdam time on deadline day the period is closed in Coda for every country without exception.** The next morning at 09:00 each group's Country Controller and Country FD receive a status mail (submitted / approved / not submitted, and the number of unexplained findings), and Group Financial Controlling receives one summary for all groups.
 
 Bookings after the deadline are reported by control **99 Booking after Deadline** and must be agreed with HQ accounting beforehand (see [closing calendar](closing-calendar.md)).
+
+**Standard at sign-off** (closing instructions, restated every month since August 2026): the online Control File must be clean at sign-off. Any remaining issue must be (i) clearly identified, (ii) properly explained and (iii) actively remediated in the Reporting Hub. A Control File with unexplained issues is not acceptable. Since September 2026 the Balance Sheet and the FPR (Financial Performance Review) are integrated into the Control File and **the submitted online Control File is the only closing deliverable**: no separate e-mail, no attachments; all comments and explanations are written in the Control File. The Director of Finance signs off on completeness of the closing, accuracy of the numbers and quality of the Control File.
 
 ## How the screen works
 
@@ -34,6 +36,14 @@ Bookings after the deadline are reported by control **99 Booking after Deadline*
 | **Requests** | Re-opening a closed period or changing the auto-close is requested in Group Control › Requests and approved by Group Financial Controlling. |
 
 Access is role-based and enforced server-side: a user only sees the control groups assigned to them, and the controls granted to their role. Data in every control is read with the user's own Coda rights.
+
+## History
+
+| Period | Process | Source |
+|---|---|---|
+| until June 2026 | Excel control file (v4.2) run per country; FD e-mails the Control File, the Trial Balance / Management Hierarchy and the FPR file (called RMA file from January 2026) to HQ. Standard: "clean, or issues flagged and explained" (July 2025, January–June 2026); "clean without exceptions, otherwise the closing is not finalised" (August–December 2025). | `sources/emails/2025-*closing-instructions*`, `2026-0[1-6]*closing-instructions*` |
+| July 2026 | Control File no longer distributed in Excel; review, remediation and sign-off in the online Reporting Hub. Other two deliverables still by e-mail. | `2026-07-28_closing-instructions-2026-07.md` |
+| September 2026 | Period closes automatically in Coda at 23:59 on deadline day; Balance Sheet and FPR integrated; the online Control File is the only deliverable. | `2026-09-25_closing-instructions-2026-09-q3.md` |
 
 ## Control catalogue
 
@@ -84,5 +94,6 @@ ORDER  BY n.SortOrder;
 
 | Date | Change | Source |
 |------|--------|--------|
+| 2026-10-09 | Sign-off standard, single-deliverable rule and the Excel-to-Reporting-Hub history added from the closing instruction e-mails 2025 to 2026. | `sources/emails/*closing-instructions*`, `sources/inventory/batch-B.md`, `batch-C.md` |
 | 2026-10-08 | Page rewritten around the online control file in the Multi Reporting Hub (control groups, Refresh All, findings and comments, submit with disclaimer, second-person approval and finding review, deadline close at 23:59 Amsterdam, status mails). Old Excel-era control descriptions kept as the catalogue pending the live list. | Multi Reporting Hub source (`202609MultiReportingHub`: Report.razor, sql/01, 13, 17, 22, 27, 37, 53, 54, DeadlineReportRunner), old wiki C01 to C31 |
 | 2026-10-08 | Page created from the "Control file" page and the C01 to C31 pages; the two C11 pages merged. | `sources/wiki/pages/control-file.md`, `c*.md` |

@@ -63,6 +63,7 @@ One page per topic, in the order of the month-end closing flow. Every page state
 | [IFRS policy memos](ifrs-memos.md) | IFRS 15, IFRS 9 |
 | [US tax reporting](us-tax-reporting.md) | UST book rules |
 | [BO reports: available budget](reports-available-budget.md) | PR budget check |
+| [Budget and forecast instructions](budget-instructions.md) | Quarterly 12-month rolling forecast, Coda upload codes, IC recharge check, review meetings. |
 | [Key users and contacts](contacts.md) | Per country (to verify) |
 | [Instruction archive](newsletter-archive.md) | 2019 to 2020 newsletters |
 | [What was dropped from the old wiki](removed-from-wiki.md) | Migration record |

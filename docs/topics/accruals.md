@@ -5,7 +5,7 @@ title: Accruals
 # Accruals
 
 <div class="page-meta" markdown>
-**Applies to:** all entities · **Owner:** Group Finance · **Last reviewed:** 2026-10-08
+**Applies to:** all entities · **Owner:** Group Finance · **Last reviewed:** 2026-10-09
 </div>
 
 ## Rule
@@ -28,7 +28,7 @@ Accrue when goods or services were received or delivered before the reporting da
 
 | Nature | P&L line | Booking | MAN | FSM | UST |
 |---|---|---|---|---|---|
-| Employee bonus | PQ2 | Cr 27526 / Dr 44124 | No | No | No |
+| Employee bonus | PQ2 | Cr 27526 / Dr 44124, 1/12 of the approved annual bonus every month; prior-year true-up in period 12, never via accrual release. See [Salary bookkeeping](salary-bookkeeping.md) | No | No | No |
 | Redundancy provision | PQ8 | Cr 27527 / Dr 44125, booked centrally by Group Finance per employee at quarter end; see [Redundancy provision](redundancy-provision.md) | Yes (MAN) | per layer map | No |
 | Seniority / leaving indemnity | PQ | Covered by the redundancy provision policy where it is a statutory severance; otherwise Cr 27527 / Dr 44123 | see policy | | |
 | Unused vacation days | PR9 | Cr 27515 / Dr 44190 | No | No | No |
@@ -55,11 +55,12 @@ The available-budget calculation counts `JV-REVERSAL` (and the old `GE-JV-RV`) d
 
 ## Deadlines
 
-[Milestone 9](closing-calendar.md): all accruals.
+[Milestone 9](closing-calendar.md) (ME + 8): all accruals (rent, MSC, genex, opex, FinEx, turnover rent, bonus) with document code `JV` / `JV-REVERSAL`.
 
 ## Change log
 
 | Date | Change | Source |
 |------|--------|--------|
+| 2026-10-09 | Bonus accrual row aligned with the 1/12 rule and the period-12 true-up; deadline wording from the 2026 closing instructions. | `sources/emails/2026-02-04_bonus-accrual-approach-2026.md`, `2026-08-28_closing-instructions-2026-08.md` |
 | 2026-10-08 | Redundancy and seniority rows updated per the Redundancy Provision policy v1.2 (provision now booked in MAN by Group Finance). | `sources/emails/2026-10_redundancy-provision-policy-v1-2.md` |
 | 2026-10-08 | Page created from "Accruals" (instructions 17 September 2019, 6 November 2019, 5 October 2020). | `sources/wiki/pages/accruals.md` |

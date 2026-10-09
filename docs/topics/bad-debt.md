@@ -52,7 +52,7 @@ Group Finance maintains the PQ bad debt calculation file that computes and check
 
 ## Deadlines
 
-[Milestone 5](closing-calendar.md): A/R review, matching and bad debt booking.
+[Milestone 5](closing-calendar.md) (ME + 4): last day of A/R review and matching, bad debt booking (13113, 42593, 43001).
 
 ## Open points
 

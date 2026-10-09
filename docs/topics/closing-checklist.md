@@ -10,7 +10,9 @@ title: Closing checklist
 
 ## Rule
 
-The country finance team confirms every point below at each close. The Excel version (`Closing Checklist V2.2.xlsx`) is the sign-off document; this page is the reference.
+The country finance team confirms every point below at each close. The points are the **minimum set of closing procedures**; a country adds its own steps where local operations require them (closing instructions, standing text since 2025). The Excel version (`Closing Checklist V2.2.xlsx`, last attached to the September 2025 instruction) was the sign-off document until the Control File moved online; since September 2026 the sign-off is the submission of the [online Control File](control-file.md), and this page is the reference.
+
+**Year-end attention items** (December instruction): all fee income of the year charged or accrued; no suspense accounts and no dummy positions; accurate cost accruals; intercompany recharges communicated to the counterpart in time; genex and CAF actuals reconciled against the advances sent.
 
 | # | Entity | Confirmation / checkpoint | BO group |
 |---|---|---|---|
@@ -56,5 +58,6 @@ The country finance team confirms every point below at each close. The Excel ver
 
 | Date | Change | Source |
 |------|--------|--------|
+| 2026-10-09 | Minimum-set rule, online sign-off and year-end attention items added from the closing instruction e-mails. | `sources/emails/*closing-instructions*` |
 | 2026-10-09 | Checked against `Closing checklist.xlsx` (wiki Documents library, March 2020): same 37 points, no differences in substance. Newer files V2 (30-06-2020), V2.1 (08-07-2020) and V2.2 (15-07-2020) exist on the wiki site and still need to be compared. | `sources/wiki/attachments/closing-checklist-2020.md` |
 | 2026-10-08 | Page created from the old wiki "Closing check list" (V2.2). Links point to the new guideline pages. | `sources/wiki/pages/closing-check-list.md` |

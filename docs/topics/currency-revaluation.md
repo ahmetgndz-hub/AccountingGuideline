@@ -26,7 +26,7 @@ Unrealised FX results go to 52825 (asset companies) or 54825 (service companies)
 
 ## Deadlines
 
-[Milestone 10](closing-calendar.md): FX valuation on closing day. Cash items may be revalued earlier as instructed in the closing e-mail.
+[Milestone 11](closing-calendar.md): full FX valuation on closing day together with the last corrections. Cash items are revalued at milestone 5 (ME + 4, map code BB5 with `GE-CR` / Disperse).
 
 ## Change log
 

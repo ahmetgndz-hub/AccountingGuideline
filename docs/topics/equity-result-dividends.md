@@ -10,7 +10,7 @@ title: Result transfer and dividends
 
 ## Rule
 
-- The result of the period is transferred from P&L to equity in **every book** (MAN, LOC, FSM, FSE, UST) at each close with `JV-RESULT` (21180 retained earnings / 99998 transfer account result). Control C31 checks this per EL1 and EL3. The booking of the current year net result was automated in Coda in November 2019.
+- The result of the period is transferred from P&L to equity in **every book** (MAN, LOC, FSM, FSE, UST) at each close with `JV-RESULT` (21180 retained earnings / 99998 transfer account result). Control C31 checks this per EL1 and EL3. The booking of the current year net result was automated in Coda in November 2019. The closing instructions require the transfer in each book at every quarter end ([milestone 10](closing-calendar.md), instruction June 2025 onward).
 - Equity reconciles with the trade registry and the shareholder ledger (checklist point 15); share capital carries the shareholder as element 6.
 - Dividends: on the registration date book the gross dividend out of retained earnings, legal reserves, dividend tax and the net amount on **27380 Dividend payable** (BF4). At payment, 27380 against the bank. 27380 maps to cash flow line CJ1 equity distributions (cash documents only).
 

@@ -17,7 +17,7 @@ title: Suspense and dummy accounts
 
 ## Deadlines
 
-Suspense accounts cleansed by [milestone 4](closing-calendar.md); control C11 lists every open item.
+Suspense accounts cleansed by [milestone 3](closing-calendar.md) (ME + 1), again at year end (no suspense accounts, no dummy positions); control C11 lists every open item.
 
 ## Change log
 

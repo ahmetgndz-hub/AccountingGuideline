@@ -5,7 +5,7 @@ title: Salary bookkeeping and employee costs
 # Salary bookkeeping and employee costs
 
 <div class="page-meta" markdown>
-**Applies to:** all entities with payroll · **Owner:** Group Finance · **Last reviewed:** 2026-10-08
+**Applies to:** all entities with payroll · **Owner:** Group Finance · **Last reviewed:** 2026-10-09
 </div>
 
 ## Rule
@@ -28,6 +28,12 @@ title: Salary bookkeeping and employee costs
 
 **Severance payments**: in the payroll run of the month of payment, book the gross severance **Dr 27527 Accrual redundancy** with the employee element (el6), never to staff costs; the net pay and taxes follow the normal payroll lines. Group Finance releases the remaining provision at the next quarter end. See [Redundancy provision](redundancy-provision.md).
 
+**Bonus accrual** (PQ2, accounts 27526 bonus accrual / 44124 bonus):
+
+- During the year, accrue the bonus **straight-line, 1/12 per month**, based on the approved bonus amount (for 2026: the FY2025 bonus approved for payment). Apply the same method in every country (instruction 4 February 2026).
+- At year end the accrual reflects the expected bonus; when the actual bonus is approved and paid in the following year, **true up the accrual in period 12 of the bonus year** (ask FAM to re-open the period) by Dr 44124 / Cr 27526 (or the reverse) so that the bonus cost of the year equals what is paid; then clear 27526 against the bank in the month of payment. **Never** book the difference as an accrual release (43010 / 43011) in the new year (revision 8 April 2025, which replaced the March 2025 example).
+- Bonus accruals are reviewed YTD against actual or budget at every close (checklist point 29) and cleaned up at year end (no other bonus accrual positions).
+
 **Month-end controls**: 27515 is zero and matched against the bank payments; 27523 equals the tax to be paid; 13567 is zero per employee; EL2 is consistent per employee.
 
 ## Recharges of salary cost
@@ -42,11 +48,12 @@ If the asset company keeps the cost as landlord cost instead of recharging it to
 
 ## Deadlines
 
-[Milestone 6](closing-calendar.md): salary and employment costs.
+[Milestone 6](closing-calendar.md) (ME + 5): salary and employee costs, depreciation and recharges; bonus accrual with the other accruals at milestone 9 (ME + 8).
 
 ## Change log
 
 | Date | Change | Source |
 |------|--------|--------|
+| 2026-10-09 | Bonus accrual rules added: 1/12 straight-line (4 Feb 2026) and prior-year true-up in period 12 via FAM, never via accrual release (8 Apr 2025). | `sources/emails/2026-02-04_bonus-accrual-approach-2026.md`, `2025-04-08_closing-instructions-2025-03-revision-bonus.md` |
 | 2026-10-08 | Severance payment treatment added per the Redundancy Provision policy v1.2 (§5.3). | `sources/emails/2026-10_redundancy-provision-policy-v1-2.md` |
 | 2026-10-08 | Page created from "Salary Bookkeeping and recharges" (31 October 2019), C30 and C14. | `sources/wiki/pages/salary-bookkeeping-and-rechagres.md` |

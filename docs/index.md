@@ -25,7 +25,7 @@ Items where the migrated material is unclear, dated, or conflicts. Group Finance
 
 | # | Topic | Question | Status |
 |---|---|---|---|
-| 1 | [Closing calendar](topics/closing-calendar.md) | Old wiki: quarterly close, 5th working day. Current: monthly close with milestones. Confirm the default working-day offsets per milestone. | Open |
+| 1 | [Closing calendar](topics/closing-calendar.md) | Default working-day offsets per milestone confirmed from the closing instruction e-mails October 2024 to September 2026 (standing ME ± n timetable). | Closed 2026-10-09 |
 | 2 | [Intercompany](topics/intercompany.md) | Intercompany interest rate (4,60% in 2019 and 2020). Current rate? | Open |
 | 3 | [Approvals](topics/approvals-segregation.md) | Manual journal approval limits named individuals; confirm limits and the current threshold for invoices without PR (newsletter 21 October 2020). | Open |
 | 4 | [Accounting Control File](topics/control-file.md) | Live list of Reporting Hub controls (number, category, description) to replace the Excel-era catalogue; SQL query is on the page. | Open |
@@ -33,5 +33,5 @@ Items where the migrated material is unclear, dated, or conflicts. Group Finance
 | 6 | [Contacts](topics/contacts.md) | Key user and HQ contact list predates 2021. | Open |
 | 7 | [US tax reporting](topics/us-tax-reporting.md) | Source page was marked draft. | Open |
 | 8 | [Instruction archive](topics/newsletter-archive.md) | Newsletter 5 February 2020 "New BO category PR13 cost price" is not in the P&L mapping. | Open |
-| 9 | Guideline e-mails | Guidelines are being loaded one by one into `sources/emails/` (first: Redundancy Provision policy v1.2). Pages are updated as each one arrives. | In progress |
+| 9 | Guideline e-mails | 23 closing instruction e-mails (Oct 2024 to Sep 2026) and the Redundancy Provision policy v1.2 are loaded and reflected; the remaining guideline threads (budget 2027, redundancy methodology, ISO 20022, JV-REDUND, Sympa codes) are being added. | In progress |
 | 10 | [P&L accounts](topics/pl-accounts-bo-codes.md) | The redundancy policy reports 44125 under PQ8 and 43011 under PU; the 2019 mapping shows PQ5 and has no 43011. Confirm the current BO hierarchy and refresh the mapping page. | Open |

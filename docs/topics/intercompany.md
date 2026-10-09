@@ -41,7 +41,7 @@ Salary recharges in detail: [Salary bookkeeping](salary-bookkeeping.md). Fee inc
 
 ## Deadlines
 
-[Milestone 7](closing-calendar.md).
+[Milestone 7](closing-calendar.md) (ME + 6): last day of intercompany transactions (EL6 = R*). Before each quarter end, settle intercompany positions in cash as far as possible (instruction March 2025). At quarter end, list the charges planned to other group companies in the dedicated intercompany tab of the RMA report (instruction June 2026). For the budget, complete the IC recharge check covering direct cost recharges, time recharges between countries and HQ / CAF time recharges so that recharges net out (instruction November 2025). At year end, communicate recharges to other Multi service companies to the counterpart in time and reconcile time recharges between countries; Group Finance reconciles actual genex and CAF against the advances sent (instruction December 2025).
 
 ## Open points
 
