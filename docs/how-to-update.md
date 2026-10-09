@@ -43,6 +43,6 @@ The site is the source of truth; do not copy rules back into SharePoint.
 ## Live preview page (Claude artifact)
 
 While the site is not yet on GitHub Pages, the latest build is published as a private Claude artifact:
-<https://claude.ai/artifact/Ai9W683YAWvcyu8Xx7fjcQ>. It is republished after every change pushed to the branch.
+<https://claude.ai/artifact/PCbv2b93BcMBJ79ejqKx6N>. It is republished after every change pushed to the branch.
 To rebuild it by hand: `python3 tools/build_artifact.py <out-dir>` and publish `artifact-root.html`
 with the files under `site-artifact/` to that URL.
