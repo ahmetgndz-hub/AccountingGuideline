@@ -5,7 +5,7 @@ title: Closing checklist
 # Closing checklist
 
 <div class="page-meta" markdown>
-**Applies to:** all entities (Prop.Co. = asset companies, Man.Co. = service companies) · **Owner:** Group Finance · **Last reviewed:** 2026-10-08
+**Applies to:** all entities (Prop.Co. = asset companies, Man.Co. = service companies) · **Owner:** Group Finance · **Last reviewed:** 2026-10-09
 </div>
 
 ## Rule
@@ -56,4 +56,5 @@ The country finance team confirms every point below at each close. The Excel ver
 
 | Date | Change | Source |
 |------|--------|--------|
+| 2026-10-09 | Checked against `Closing checklist.xlsx` (wiki Documents library, March 2020): same 37 points, no differences in substance. Newer files V2 (30-06-2020), V2.1 (08-07-2020) and V2.2 (15-07-2020) exist on the wiki site and still need to be compared. | `sources/wiki/attachments/closing-checklist-2020.md` |
 | 2026-10-08 | Page created from the old wiki "Closing check list" (V2.2). Links point to the new guideline pages. | `sources/wiki/pages/closing-check-list.md` |

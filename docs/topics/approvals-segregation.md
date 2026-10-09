@@ -5,7 +5,7 @@ title: Approvals and segregation of duties
 # Approvals and segregation of duties
 
 <div class="page-meta" markdown>
-**Applies to:** all entities · **Owner:** Group Finance · **Last reviewed:** 2026-10-08
+**Applies to:** all entities · **Owner:** Group Finance · **Last reviewed:** 2026-10-09
 </div>
 
 ## Rule
@@ -35,6 +35,20 @@ If a country fills neither position 0 nor position 1, position 0 is used to keep
 | Approval of pay proposal | Approve and process payment orders according to the power of attorney. Country FD and MD initially; above their limit the company board and BX. | |
 
 Each country keeps the segregation of duties sheet up to date (`Segregation of duties v02.xlsx` on the old wiki; ask Group Finance for the current location).
+
+### Invoice recording check by the country head of accounting
+
+Since February 2020 the country head of accounting is a step in the Coda workflow for **every invoice** entered by the country accounting team, as was already the case for journal vouchers. Before approving, the head of accounting checks at least:
+
+- document date falls within the reporting period;
+- SCoA is in line with the nature of the cost;
+- VAT is reflected correctly (reimbursable or not);
+- counterparty (element 6) is correct;
+- invoice amounts are correct;
+- description is correct and in English;
+- the attachment is the right document.
+
+The aim is that invoices are recorded correctly the first time, in line with this guideline, so that no corrections are needed later.
 
 ### Commitments and invoices (purchase requests)
 
@@ -86,4 +100,5 @@ Invoices on the accounts below require a purchase order; booking without a PR is
 
 | Date | Change | Source |
 |------|--------|--------|
+| 2026-10-09 | Invoice recording check by the head of accounting added from the workflow-change instruction of 18 February 2020 (fetched from the wiki site). | `sources/wiki/attachments/workflow-change-invoice-recording-2020.md` |
 | 2026-10-08 | Page created from "Manual Journal Entries", "Master Data change and Pay proposals", "Approval Setup", "PO Required SCoA list". | `sources/wiki/pages/` |
