@@ -5,7 +5,7 @@ title: Intercompany transactions and charges
 # Intercompany transactions and charges
 
 <div class="page-meta" markdown>
-**Applies to:** all entities · **Owner:** Group Finance · **Last reviewed:** 2026-10-08
+**Applies to:** all entities · **Owner:** Group Finance · **Last reviewed:** 2026-10-09
 </div>
 
 ## Rule
@@ -47,8 +47,14 @@ Salary recharges in detail: [Salary bookkeeping](salary-bookkeeping.md). Fee inc
 
 - Current intercompany interest rate (old wiki: 4,60% for 2019 and 2020) to be confirmed.
 
+## Open points
+
+- **Automatic transfer of old intercompany invoices to loans.** A servicedesk request (October 2026) proposed to move intercompany invoices (SI / PI documents only) unpaid 45 days after invoice date from 13130 / 27210 to the loan account 13564 with a new document code `JV-ICALLOC`, for service companies versus HQ (RHQH001 / RHQH005). Group Finance put the change on hold pending discussion; until a decision, nothing changes and `JV-ICALLOC` is not used.
+- Intercompany interest rate: current rate to be confirmed by HQ cash management (see [Closing calendar](closing-calendar.md)).
+
 ## Change log
 
 | Date | Change | Source |
 |------|--------|--------|
+| 2026-10-09 | Quarter-end and year-end intercompany rules from the closing instructions (cash settlement before quarter end, RMA intercompany tab, IC recharge check, genex / CAF reconciliation) and the open point on the 45-day IC loan automation added. | `sources/emails/2025-03-27_closing-instructions-2025-03.md`, `2025-12-01_*`, `2025-12-15_*`, `2026-06-23_*`, `2026-10-07_ic-receivables-to-ic-loan-after-45-days.md` |
 | 2026-10-08 | Page created from "Intercompany Transactions", "Intercompany Charges" (instruction 1 July 2019) and "Closing general information". | `sources/wiki/pages/intercompany-charges.md` |

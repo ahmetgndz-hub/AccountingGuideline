@@ -5,7 +5,7 @@ title: Redundancy provision
 # Redundancy provision (employee severance provision)
 
 <div class="page-meta" markdown>
-**Applies to:** all Multi Group entities (closed entities excluded) · **Owner:** Group Finance (HQ); reviewed by the CFO · **Policy:** Group Accounting Policy v1.2, effective 2026/12 close, methodology applied from the 2026/6 run · **Last reviewed:** 2026-10-08
+**Applies to:** all Multi Group entities (closed entities excluded) · **Owner:** Group Finance (HQ); reviewed by the CFO · **Policy:** Group Accounting Policy v1.2, effective 2026/12 close, methodology applied from the 2026/6 run · **Last reviewed:** 2026-10-09
 </div>
 
 ## Rule
@@ -100,9 +100,19 @@ Quarter-end runs (periods 3, 6, 9, 12), before the closing deadline of the quart
 | 7 | Fully automatic Fluxygen transfer instead of manual copy to the pick-up folder. | Group Finance / IT | Open |
 | 8 | Duplicate employee numbers (ES E5098 / E6512): HR to avoid; booking on the unused number released as error. | HR / Group Finance | Open |
 | 9–11 | Layer map agreed; JV-REDUND created and proven; pool transition posted. | | Closed |
+| 12 | Spain: Coda E-codes not in line with Sympa employee ids; corrections requested 5 October 2026. | ES Finance | Open |
+
+## Scope clarification and history
+
+- **Severance only.** The provision covers the redundancy (severance) payment. Notice-period pay, garden leave or a termination settlement of a few months' salary for not working are payroll cost (PQ1), never booked out of the reserve (confirmed for a German case on 25 September 2026).
+- **Salary basis** since April 2026: the total contracted annual compensation from Sympa divided by 12, read through the Sympa API. Before that the calculation used the salary actually paid in the month, which depended on correct element-code usage and ignored country differences such as the Italian 13th and 14th month.
+- **Who books.** Since policy v1.1 (July 2026) all provision movements are booked centrally by HQ; countries only book the severance payment. v1.1 used a three-step gross method via payroll (Dr 44125 / Cr 27523 and 27515; Dr 27515 / Cr 13311; Dr 27527 / Cr 44125); v1.2 simplified this to the single payroll line Dr 27527 with the employee element (see *How to*). A release can never create a credit above the line.
+- **Document code** `JV-REDUND` was created on 1 October 2026 for the HQ upload (no workflow). The 2026 Q2 provision was still requested from the countries by e-mail on 14 July 2026; from 2026/9 HQ uploads it.
+- **Employee codes** in Coda (EL6 `E` codes) must equal the Sympa employee id, otherwise the provision model cannot link payroll bookings to employees (instruction 5 October 2026).
 
 ## Change log
 
 | Date | Change | Source |
 |---|---|---|
+| 2026-10-09 | Scope clarification (severance only), methodology history (Sympa basis, v1.0 to v1.2, central booking, JV-REDUND creation) and Sympa employee-code rule added from the 2026 e-mail threads. | `sources/emails/2026-04-28_redundancy-calculation-methodology.md`, `2026-05-05_*`, `2026-07-14_*`, `2026-09-25_redundancy-reserve-scope.md`, `2026-10-01_jv-redund-document-code-created.md`, `2026-10-05_e-code-usage-not-in-line-with-sympa.md` |
 | 2026-10-08 | Page created from Group Accounting Policy "Redundancy Provision" v1.2 (Oct 2026 revision for the 2026/12 close). Supersedes the old wiki accrual table row "Redundancy: no booking in MAN / FSM / UST". | `sources/emails/2026-10_redundancy-provision-policy-v1-2.md` |

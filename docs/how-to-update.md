@@ -16,6 +16,10 @@ on every push to `main`.
 4. Add the same row to `docs/changelog.md`.
 5. Commit and push to `main`. The site rebuilds within a few minutes.
 
+## Pulling e-mails with the Microsoft 365 connector
+
+When the connector is available in the Claude session, e-mails are fetched read-only from Outlook: find the message, read it, save the HTML body and convert it with `python3 -I tools/mail_html_to_md.py <body.html> --out sources/emails/<YYYY-MM-DD_slug>.md --date ... --subject ... --from ... --status ...`. The full procedure, the page slugs for `--topics` and the per-batch inventory format are in `sources/inventory/INTAKE-INSTRUCTIONS.md`; `sources/inventory/MANIFEST.md` lists the messages pulled so far with their Outlook ids.
+
 ## Adding a new topic
 
 1. Copy `docs/topics/_template.md` to `docs/topics/<slug>.md` (the template is not part of the site navigation).

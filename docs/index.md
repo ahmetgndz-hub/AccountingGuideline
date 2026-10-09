@@ -33,5 +33,9 @@ Items where the migrated material is unclear, dated, or conflicts. Group Finance
 | 6 | [Contacts](topics/contacts.md) | Key user and HQ contact list predates 2021. | Open |
 | 7 | [US tax reporting](topics/us-tax-reporting.md) | Source page was marked draft. | Open |
 | 8 | [Instruction archive](topics/newsletter-archive.md) | Newsletter 5 February 2020 "New BO category PR13 cost price" is not in the P&L mapping. | Open |
-| 9 | Guideline e-mails | 23 closing instruction e-mails (Oct 2024 to Sep 2026) and the Redundancy Provision policy v1.2 are loaded and reflected; the remaining guideline threads (budget 2027, redundancy methodology, ISO 20022, JV-REDUND, Sympa codes) are being added. | In progress |
+| 9 | Guideline e-mails | 23 closing instruction e-mails (Oct 2024 to Sep 2026), 15 guideline threads (budget 2027, redundancy methodology, ISO 20022, JV-REDUND, Sympa codes, RMA pack) and 4 wiki attachments loaded via the Microsoft 365 connector and reflected in the pages. New e-mails are added as they are sent. | Closed 2026-10-09 |
+| 11 | [Intercompany](topics/intercompany.md) | Automatic 45-day transfer of IC invoices to loans (`JV-ICALLOC`) put on hold by Group Finance; decision pending. | Open |
+| 12 | [Closing calendar](topics/closing-calendar.md) | March 2026 (Q1) instruction found only as a draft; the distributed version is missing from the mailbox. | Open |
+| 13 | [Closing checklist](topics/closing-checklist.md) | Closing Checklist V2 / V2.1 / V2.2 (2020) on the wiki site not yet compared with the page. | Open |
+| 14 | [Salary bookkeeping](topics/salary-bookkeeping.md) | Bonus accrual rule of 4 Feb 2026 (1/12 of the approved FY2025 bonus during 2026) does not say how the year-end 2025 provision and the mid-year payment are treated; confirm with Group Finance. | Open |
 | 10 | [P&L accounts](topics/pl-accounts-bo-codes.md) | The redundancy policy reports 44125 under PQ8 and 43011 under PU; the 2019 mapping shows PQ5 and has no 43011. Confirm the current BO hierarchy and refresh the mapping page. | Open |

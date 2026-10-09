@@ -37,6 +37,8 @@ Bookings after the deadline are reported by control **99 Booking after Deadline*
 
 Access is role-based and enforced server-side: a user only sees the control groups assigned to them, and the controls granted to their role. Data in every control is read with the user's own Coda rights.
 
+**Exclusions and intray items.** Historical clean-up write-offs done via matching can be excluded from the control file by HQ on a documented request of the country FD. A finding can also stem from an HQ booking still sitting in the Coda intray; ask HQ before acting on intray items the country did not create.
+
 ## History
 
 | Period | Process | Source |

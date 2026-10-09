@@ -11,7 +11,7 @@ title: Salary bookkeeping and employee costs
 ## Rule
 
 - Document code `JV-SALARY`, document date = payroll run date. The payroll provider (ADP or local) delivers a file that loads through CodaXL without manual intervention.
-- **EL1** = payroll entity. **EL2** = the asset where the employee works; service company code if the employee works for all assets or for the service company. **EL6** = employee code (`E` + Workday id), created for internal, external and temporary staff via the FAM mailbox. Dummy employee codes E9998 / E9999 only where a cost cannot be attributed (control C30). **EL7** = department.
+- **EL1** = payroll entity. **EL2** = the asset where the employee works; service company code if the employee works for all assets or for the service company. **EL6** = employee code (`E` + Sympa employee id, which must match Sympa exactly), created for internal, external and temporary staff via the FAM mailbox. Dummy employee codes E9998 / E9999 only where a cost cannot be attributed (control C30). **EL7** = department.
 - Employee-related accounts that require an employee code: PQ1 salaries (44111, 44122, 44123, 44127, 44128, 44198), PQ2 bonus 44124, PQ3 independent workers 44120, PQ4 temporary staff 44180, PQ6 social security 44112 / 44113, PQ7 pensions 44115, PR7 travel (44130 to 44135), PR8 car costs (44170 to 44174), PR9 other staff costs (44140, 44150, 44160, 44190).
 
 **Example payroll booking** (service company ITS002, employee at asset ITIP004)

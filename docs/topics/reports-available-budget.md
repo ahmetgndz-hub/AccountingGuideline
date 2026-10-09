@@ -5,7 +5,7 @@ title: BO reports: available budget
 # BO reports: available budget
 
 <div class="page-meta" markdown>
-**Applies to:** all entities · **Owner:** FAM · **Last reviewed:** 2026-10-08
+**Applies to:** all entities · **Owner:** FAM · **Last reviewed:** 2026-10-09
 </div>
 
 ## Available budget calculation (purchase requests)
@@ -30,8 +30,13 @@ Location: Country, All, Financial Reporting, "Available budget - Asset / Service
 
 Sheets: overview, genex, opex, SC, details budget, details actuals, purchase requests (status 01 posted invoices, 03 non-approved, 05 commitments previous years, 06 invoices against previous-year commitments).
 
+## RMA pack (Financial Performance Review)
+
+Since July 2026 the RMA meeting presentation is produced from the standard **RMA automation file for Macabacus** (`RMA Pack Version @20260728.xlsb`, maintained by Group Finance). Phase 1 content: profit and loss statement, balance sheet, direct cash flow statement. Until phase 2 the countries add by hand: accounts receivable ageing, FTE overview by asset and department (actual versus budget), NRI waterfall from budget to forecast, fee income per asset and margin analysis. The quarter-end instruction of June 2026 made this the standardised RMA format; since September 2026 the FPR is integrated into the online [Accounting Control File](control-file.md).
+
 ## Change log
 
 | Date | Change | Source |
 |---|---|---|
+| 2026-10-09 | RMA pack (Macabacus format, July 2026) section added. | `sources/emails/2026-07-28_rma-report-format-macabacus.md`, `2026-06-23_closing-instructions-2026-06-q2.md` |
 | 2026-10-08 | Page created from "Available budget" and "Available budget calculation on purchase request" (newsletter 9 April 2020). | `sources/wiki/pages/available-budget.md` |

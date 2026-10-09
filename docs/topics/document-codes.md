@@ -5,7 +5,7 @@ title: Document codes
 # Document codes
 
 <div class="page-meta" markdown>
-**Applies to:** all entities · **Owner:** Group Finance / FAM · **Last reviewed:** 2026-10-08
+**Applies to:** all entities · **Owner:** Group Finance / FAM · **Last reviewed:** 2026-10-09
 </div>
 
 ## Rule
@@ -25,7 +25,8 @@ Since 2020 Coda has one document code per purpose. Use the code that matches the
 | `JV-BADDEBT` | Bad debt provision bookings | Exempt | 13113, 42593. Must be a reversal document |
 | `JV-TAXES` | VAT return, WHT return, deferred tax, tax accruals and reclasses | Exempt, write-off allowed up to €5 | 11575, 27521, 27523, 11650, 25511, 27570, 53100, 53300 |
 | `JV-DEPR` | Depreciation of tangible and intangible assets | Manual journal workflow | 11313, 11323, 11423, 42910, 42911, 42912, 44910, 53910 |
-| `JV-REDUND` | Quarter-end redundancy provision booking by Group Finance, one document per legal entity and entity code, MAN + LOC + FSM lines together, delivered via Fluxygen to the intray | Posted by Group Finance | 27527, 44125, 43011; see [Redundancy provision](redundancy-provision.md) |
+| `JV-REDUND` | Quarter-end redundancy provision booking by Group Finance, one document per legal entity and entity code, MAN + LOC + FSM lines together, delivered via Fluxygen to the intray. Created 1 October 2026; upload only, no workflow | Posted by Group Finance | 27527, 44125, 43011; see [Redundancy provision](redundancy-provision.md) |
+| `JV-ICALLOC` | Announced for an automatic transfer of intercompany invoices older than 45 days from 13130 / 27210 to the intercompany loan account 13564. **On hold**: not to be used until Group Finance confirms the process ([Intercompany](intercompany.md)) | n/a | 13130, 27210, 13564 |
 | `JV-SALARY` | Payroll bookings | | see [Salary bookkeeping](salary-bookkeeping.md) |
 | `JV-REVERSAL` | Accruals with automatic reversal (auto-matched) | | see [Accruals](accruals.md) |
 | `NF-GUARANTEE` | Tenant or supplier guarantees, off balance sheet (formerly `GE-JV-MAN-GU`) | Manual journal workflow | 99100 |
@@ -37,5 +38,6 @@ Other document families: incoming invoices (`*PI*`), outgoing / asset invoices (
 
 | Date | Change | Source |
 |------|--------|--------|
+| 2026-10-09 | JV-REDUND creation date confirmed (servicedesk 1 Oct 2026); JV-ICALLOC listed as announced and on hold. | `sources/emails/2026-10-01_jv-redund-document-code-created.md`, `2026-10-07_ic-receivables-to-ic-loan-after-45-days.md` |
 | 2026-10-08 | JV-REDUND added per the Redundancy Provision policy v1.2. | `sources/emails/2026-10_redundancy-provision-policy-v1-2.md` |
 | 2026-10-08 | Page created from "Journal Vouchers", "Document codes in use", "C28". JV-SALARY and JV-REVERSAL added from the salary and accrual pages. | `sources/wiki/pages/journal-vouchers.md` |

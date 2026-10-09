@@ -5,7 +5,7 @@ title: Bank and cash
 # Bank and cash
 
 <div class="page-meta" markdown>
-**Applies to:** all entities · **Owner:** Group Finance / cash management · **Last reviewed:** 2026-10-08
+**Applies to:** all entities · **Owner:** Group Finance / cash management · **Last reviewed:** 2026-10-09
 </div>
 
 ## Rule
@@ -23,8 +23,13 @@ Cash SCoAs recognised by the cash flow: 13311, 13312, 13313, 13317, 13332, 13340
 
 Bank and cash deadline: see [Closing calendar](closing-calendar.md), milestone 3.
 
+## Structured addresses in master data (ISO 20022)
+
+From **14 November 2026** SWIFT and the major payment infrastructures no longer accept fully unstructured postal addresses in cross-border and high-value payments. Every supplier and debtor record in Coda must therefore have at least a **hybrid** address: Country filled from the Coda dropdown (mandatory field) and City / Town reviewed and correct, with street, number and postal code completed in their own fields wherever possible. Countries review and clean their master data before the deadline; reference document EPC153-22 v2.0 (instruction 27 July 2026). Master data changes follow the four-eyes rule on the [Approvals](approvals-segregation.md) page.
+
 ## Change log
 
 | Date | Change | Source |
 |------|--------|--------|
+| 2026-10-09 | ISO 20022 structured address requirement for supplier and debtor master data added. | `sources/emails/2026-07-27_iso-20022-structured-addresses.md` |
 | 2026-10-08 | Page created from C17, C21, C25, "Liquidation of cash guarantees" and "Below NRI items". | `sources/wiki/pages/` |

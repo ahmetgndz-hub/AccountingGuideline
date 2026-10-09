@@ -50,6 +50,10 @@ Since February 2020 the country head of accounting is a step in the Coda workflo
 
 The aim is that invoices are recorded correctly the first time, in line with this guideline, so that no corrections are needed later.
 
+### Changes to the system set-up
+
+No essential change to the Coda set-up (document codes, allocations, automated processes, control-file content) is made without prior agreement of the Head of Business Applications (Group Finance), whoever requested it. Changes that affect the control file are excluded or adjusted by HQ on a documented request from the country FD (instructions 28 September and 7 October 2026).
+
 ### Commitments and invoices (purchase requests)
 
 Approval blueprints exist per cost type: Service charge, Opex, Genex (asset company), Genex (service company and legacy), Capex, Development, Expense reports. The blueprints are workflow diagrams (`WF Matrix Blue Print @20190920.xlsx` and images on the old wiki); they are not reproduced here.
@@ -100,5 +104,6 @@ Invoices on the accounts below require a purchase order; booking without a PR is
 
 | Date | Change | Source |
 |------|--------|--------|
+| 2026-10-09 | Change-management rule for the Coda set-up added. | `sources/emails/2026-10-07_ic-receivables-to-ic-loan-after-45-days.md`, `2026-09-28_cleaning-balance-matching.md` |
 | 2026-10-09 | Invoice recording check by the head of accounting added from the workflow-change instruction of 18 February 2020 (fetched from the wiki site). | `sources/wiki/attachments/workflow-change-invoice-recording-2020.md` |
 | 2026-10-08 | Page created from "Manual Journal Entries", "Master Data change and Pay proposals", "Approval Setup", "PO Required SCoA list". | `sources/wiki/pages/` |

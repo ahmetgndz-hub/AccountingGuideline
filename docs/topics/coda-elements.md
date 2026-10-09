@@ -5,7 +5,7 @@ title: Coda element structure
 # Coda element structure
 
 <div class="page-meta" markdown>
-**Applies to:** all entities · **Owner:** Group Finance / FAM · **Last reviewed:** 2026-10-08
+**Applies to:** all entities · **Owner:** Group Finance / FAM · **Last reviewed:** 2026-10-09
 </div>
 
 ## Rule
@@ -19,7 +19,7 @@ Every Coda transaction line carries elements 1 to 8. Use them consistently; the 
 | **EL3** | Book | MAN, FSM, FSE, LOC, TAX, UST, LUX, ELM. See [Books](booking-structure.md). |
 | **EL4** | SCoA (account) | Group chart of accounts. Mapping to BO reporting groups: [P&L accounts and BO codes](pl-accounts-bo-codes.md). |
 | **EL5** | Sub-analysis | Capex category (C01 to C05, C99 for valuation), tax code, Covid or other special codes, discount sub-codes. |
-| **EL6** | Counterparty | Debtor (D), creditor (C), employee (E, equal to the Workday id), bank, tax code (T), group company (R). **Dummy element 6 is not allowed**, except `0` for depreciation and result transfer. See [Suspense and dummy accounts](suspense-dummy-accounts.md). |
+| **EL6** | Counterparty | Debtor (D), creditor (C), employee (`E` + the Sympa employee id; must match Sympa exactly), bank, tax code (T), group company (R). **Dummy element 6 is not allowed**, except `0` for depreciation and result transfer. See [Suspense and dummy accounts](suspense-dummy-accounts.md). |
 | **EL7** | Department / loan / contract | Loans: `L` + ISO country + 3 digits (for example `LDE001`), mandatory on all loan and interest accounts. Departments for staff costs. |
 | **EL8** | Movement code | Cash flow and roll-forward logic: 810 drawdown, 820 repayment, 830 amortisation, 070 capex, 050 sale, 054 valuation, 015/045/130 depreciation, 410/420/440 bad debt movements, 525/570 equity movements. |
 
@@ -42,8 +42,13 @@ T  DE  S  21
 
 At each month end (or declaration period) reclass purchase and sales VAT to the proper VAT asset / liability account with the matching `A` / `L` element 6, and match the lines against the settlement booking. See [Taxes](taxes.md).
 
+## Minimum coding for budget and forecast uploads
+
+Budget and forecast uploads to Coda follow the minimum coding matrix per BO code in [Budget and forecast instructions](budget-instructions.md) (fee income at EL1 + EL2 + EL4 + EL5, intercompany lines with the counterparty in EL6, staff costs at SCoA level only, capex with capex id). Supplier and debtor master data must carry a structured address (country from the dropdown, city) for ISO 20022 payments, see [Bank and cash](bank-cash.md).
+
 ## Change log
 
 | Date | Change | Source |
 |------|--------|--------|
+| 2026-10-09 | Employee element defined as the Sympa employee id (instruction 5 October 2026); budget upload coding and structured-address references added. | `sources/emails/2026-10-05_e-code-usage-not-in-line-with-sympa.md`, `2026-09-10_budget-2027-instructions-and-guidelines.md`, `2026-07-27_iso-20022-structured-addresses.md` |
 | 2026-10-08 | Page created from "Tax codes", "Loan and interest", "C11", "C14", "C30" and "Salary bookkeeping" wiki pages. | `sources/wiki/pages/` |
